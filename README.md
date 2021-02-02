@@ -14,5 +14,3 @@ Project 2
 Setup and EC2 Instance witn Public Key pair
 Configure VPC, Subnet, IGW and AZ
 
-=======
->>>>>>> 15bc4acdd4c0728d8819786429f79449da69b25c
