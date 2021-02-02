@@ -1,4 +1,4 @@
-# Aws-Terraform
+# Aws - Terraform
 
 Project 1
 =========

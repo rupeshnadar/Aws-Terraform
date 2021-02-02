@@ -9,3 +9,4 @@ resource "aws_instance" "dmz" {
     Environment = var.environment_tag
   }
 }
+
