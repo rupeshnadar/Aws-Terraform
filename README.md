@@ -1,13 +1,13 @@
 # Aws - Terraform
 
-Project-1 - Aws-Terraform-S3-Rdp
+Project1 - Aws-Terraform-S3-Rdp
 ================================
 
 Launch two EC2 Instances (one of Linux & one of Windows).
 Create custom Security Group and allow SSH for Linuix and RDP for Windows and ICMP for both
 Save the Terraform State file to S3 Bucket.
 
-Project-2 - Aws-Terraform-Vpc-Igw
+Project2 - Aws-Terraform-Vpc-Igw
 =================================
 
 Setup and EC2 Instance witn Public Key pair
