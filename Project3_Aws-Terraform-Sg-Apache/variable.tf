@@ -13,7 +13,3 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
-variable "environment_tag" {
-  description = "Web Server"
-  default     = "Web Server"
-}
