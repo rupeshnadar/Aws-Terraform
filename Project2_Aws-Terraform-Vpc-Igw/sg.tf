@@ -17,6 +17,6 @@ resource "aws_security_group" "sg" {
   }
 
   tags = {
-    Environment = var.environment_tag
+    Name = "SG Terraform"
   }
 }

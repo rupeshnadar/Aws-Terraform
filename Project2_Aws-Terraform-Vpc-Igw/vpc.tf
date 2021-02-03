@@ -1,7 +1,7 @@
 resource "aws_vpc" "vpc" {
   cidr_block = var.cidr_vpc
   tags = {
-    Environment = "${var.environment_tag}"
+    Name = "VPC Terraform"
   }
 }
 
@@ -10,6 +10,6 @@ resource "aws_subnet" "subnet_public" {
   cidr_block              = var.cidr_subnet
   map_public_ip_on_launch = "true"
   tags = {
-    Environment = "${var.environment_tag}"
+    Name = "Subnet Terraform"
   }
 }

@@ -28,7 +28,3 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
-variable "environment_tag" {
-  description = "Environment Tag"
-  default     = "Production"
-}

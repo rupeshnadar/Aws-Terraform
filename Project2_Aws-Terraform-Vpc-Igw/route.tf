@@ -5,7 +5,7 @@ resource "aws_route_table" "rt_public" {
     gateway_id = aws_internet_gateway.igw.id
   }
   tags = {
-    Environment = var.environment_tag
+    Name = "Public Route Terraform"
   }
 }
 

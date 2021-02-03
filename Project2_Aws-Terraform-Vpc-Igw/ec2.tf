@@ -6,7 +6,7 @@ resource "aws_instance" "dmz" {
   key_name               = aws_key_pair.sshkey.key_name
 
   tags = {
-    Environment = var.environment_tag
+    Name = "DMZ Server Terraform"
   }
 }
 
