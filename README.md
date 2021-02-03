@@ -16,3 +16,8 @@ Project3 - Aws-Terraform-Sg-Webserver
 Configure a simple Web Server on AWS using Terraform and allowing access to the Web Server
 over the internet.
 
+Project4 - Aws-Terraform-Vpc-Igw-Lb
+====================================
+Configure VPC with Load Balancer
+
+
